@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  
+  text-align: center;
+}
+.text{
+  height: 80px;
+  width: 100%;
+  background-color: darkcyan;
+  padding-top: 10px;
+}
+
+.main{
+margin-top: 180px;
+ 
+}
+.number{
+  padding-bottom: 30px;
+}
+
+.buttons .btn{
+  padding: 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+background-color: lightseagreen;
+border-radius: 8px;
+color: white;
+transition: all 0.3s ease-in-out;
+font-size: 16px;
+}
+.buttons .btn:hover{
+  background-color: darkseagreen;
+}
+
